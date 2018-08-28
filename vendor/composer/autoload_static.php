@@ -28,6 +28,15 @@ class ComposerStaticInit5f27fec3d6cc342d38f4a057516a6ba6
             'Psr\\Log\\' => 8,
             'Psr\\Container\\' => 14,
         ),
+        'M' => 
+        array (
+            'MicroCMS\\' => 9,
+        ),
+        'D' => 
+        array (
+            'Doctrine\\Common\\Cache\\' => 22,
+            'Doctrine\\Common\\' => 16,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -71,6 +80,18 @@ class ComposerStaticInit5f27fec3d6cc342d38f4a057516a6ba6
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
+        'MicroCMS\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Doctrine\\Common\\Cache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache',
+        ),
+        'Doctrine\\Common\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/event-manager/lib/Doctrine/Common',
+        ),
     );
 
     public static $prefixesPsr0 = array (
@@ -79,6 +100,13 @@ class ComposerStaticInit5f27fec3d6cc342d38f4a057516a6ba6
             'Pimple' => 
             array (
                 0 => __DIR__ . '/..' . '/pimple/pimple/src',
+            ),
+        ),
+        'D' => 
+        array (
+            'Doctrine\\DBAL\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/doctrine/dbal/lib',
             ),
         ),
     );
