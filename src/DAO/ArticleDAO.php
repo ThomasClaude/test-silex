@@ -2,7 +2,7 @@
 
 namespace MicroCMS\DAO;
 
-use Doctirne\DBAL\Connection;
+use Doctrine\DBAL\Connection;
 use MicroCMS\Domain\Article;
 
 
